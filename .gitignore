@@ -1,0 +1,74 @@
+# --- Android / Gradle build outputs ---
+.gradle/
+**/build/
+.cxx/
+.kotlin/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Prebuilt / packaging drop folder
+dist/
+
+# --- Local machine / IDE ---
+local.properties
+.idea/
+*.iml
+.DS_Store
+*.swp
+*~
+
+# --- Secrets, credentials, signing ---
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+secrets/
+credentials/
+google-services.json
+**/service-account*.json
+**/api-keys*
+**/secrets.properties
+**/keystore.properties
+**/signing.properties
+
+# --- Python ---
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/.venv*/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Backend runtime data ---
+backend/uploads/
+backend/*.db
+backend/*.db-journal
+backend/*.sqlite
+backend/*.sqlite3
+uploads/
+fieldproof.db
+*.db-journal
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+.cache/

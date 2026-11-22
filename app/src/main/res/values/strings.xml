@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FieldProof</string>
+    <string name="integrity_disclaimer">SHA-256 confirms that a file still matches the digest recorded at capture time. It does not prove who took the photo, that GPS is true, or that the original recording was authentic.</string>
+    <string name="location_disclaimer">Coordinates and timestamps are reported by this device. They are not independently verified.</string>
+</resources>
